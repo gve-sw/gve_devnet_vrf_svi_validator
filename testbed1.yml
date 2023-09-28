@@ -1,0 +1,15 @@
+devices:
+  {device name}:
+    os: ios
+    type: switch
+    credentials:
+      default:
+        username: {ssh user}
+        password: {ssh password}
+    connections:
+      defaults:
+        class: unicon.Unicon
+      cli:
+        protocol: ssh
+        ip: {switch ip}
+        port: 22
